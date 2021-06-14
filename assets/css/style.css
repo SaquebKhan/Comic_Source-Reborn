@@ -1,0 +1,86 @@
+#hero {
+    font-family: 'Comic Neue', cursive;
+}
+#text {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #FF0000;;
+    color: black;
+    font-size: 27px;
+}
+
+#comics {
+    background-size: 1000px; 
+}
+
+#hero-display {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 20px;
+    margin: 0;
+}
+
+ul {
+    font-size: 20px;
+}
+
+ul #hero-name {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#hero-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 60%;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    font-family: 'Farro', sans-serif;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(348, 100%, 63%);
+}
+
+#movie-poster {
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 60%;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+.element {
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    15% {
+      background-color: #0460BB;
+    }
+    35% {
+      background-color: #F716F7;
+    }
+    50% {
+      background-color: #D8FC0E;
+    }
+    75% {
+      background-color: #0CB16C;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+
+  .movies {
+    display: block;
+    margin: 0px 50px 0px 75px;
+  }
