@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS comic_source;
+CREATE DATABASE comic_source;
