@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS comic_source;
-CREATE DATABASE comic_source;
+DROP DATABASE IF EXISTS comicsource_db;
+CREATE DATABASE comicsource_db;
