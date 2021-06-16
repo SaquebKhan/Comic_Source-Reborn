@@ -11,3 +11,11 @@ CREATE TABLE profiles
     password VARCHAR (255) NOT NULL,
     PRIMARY KEY(id)
 );
+
+CREATE TABLE heros
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    heroname VARCHAR (255) NOT NULL,
+    publisher VARCHAR (255) NOT NULL,
+    PRIMARY KEY(id)
+);
