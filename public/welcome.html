@@ -37,6 +37,53 @@
       </div>
     </div>
   </div>
+  <section class="section is-medium has-text-centered">
+    <div class="box" id="text">
+      Search for your favorite <strong>Superhero</strong> or villain and learn everything you've ever wanted to know
+      about them!
+    </div>
+    <div class="control">
+      <input class="input is-focused is-size-4" id="search" style="width: 50%;" type="text"
+        placeholder="Name of Superhero or villain here...">
+      <button class="button is-danger is-size-4" id="tag_search" onclick="goToSearch()">Search</button>
+    </div>
+  </section>
+  </div>
+  <!-- Hero/Movie info populated by API calls -->
+  <section class="columns hero is-danger" id="hero-display">
+    <div class="column">
+      <ul id="hero-list">
+        <li id="hero-name"></li>
+        <li id="hero-publisher"></li>
+        <li id="hero-height"></li>
+        <li id="hero-weight"></li>
+        <li id="hero-combat"></li>
+        <li id="hero-intelligence"></li>
+        <li id="hero-durability"></li>
+        <li id="hero-power"></li>
+        <li id="hero-speed"></li>
+        <li id="hero-strength"></li>
+      </ul>
+    </div>
+    <div class="column">
+      <img id="hero-img" alt="">
+    </div>
+    <div class="column" id="movie-info">
+      <img id="movie-poster" alt="">
+      <ul class="movies" id="movie-list">
+        <li id="movie-name"></li>
+        <li id="movie-rated"></li>
+        <li id="movie-runtime"></li>
+        <li id="movie-year"></li>
+        <li id="movie-director"></li>
+        <li id="movie-imdb"></li>
+        <li id="movie-meta"></li>
+        <li id="movie-genre"></li>
+      </ul>
+      
+    </div>
+  </section>
+
   <div>
     <img src="/assets/images/joker2.png" class="rounded float-sm-end" alt="joker">
   </div>
