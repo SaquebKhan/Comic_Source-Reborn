@@ -22,27 +22,28 @@
 
 <body>
   <nav class="navbar navbar-default bg-dark">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/api/auth/logout">
-        Logout
-      </a>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/api/auth/logout">
+          Logout
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
   <div class="container bg-dark">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <h2>Welcome!  <span class="member-name"></span></h2>
+        <h1>Welcome! <span class="member-name"></span></h1>
       </div>
     </div>
   </div>
   <div>
     <img src="/assets/images/joker2.png" class="rounded float-sm-end" alt="joker">
   </div>
-  <section class="section is-medium has-text-centered">
+  <section class="section is-medium">
     <div class="box text-info" id="text">
-      Search for your favorite <strong class="text-primary">Superhero</strong> or villain and learn everything you've ever wanted to know
+      Search for your favorite <strong class="text-primary">Superhero</strong> or villain and learn everything you've
+      ever wanted to know
       about them!
     </div>
     <div class="control">
@@ -53,7 +54,7 @@
   </section>
   </div>
   <!-- Hero/Movie info populated by API calls -->
-  <section class="columns hero is-danger" id="hero-display">
+  <section class="columns hero is-info" id="hero-display">
     <div class="column">
       <ul id="hero-list">
         <li id="hero-name"></li>
@@ -71,25 +72,8 @@
     <div class="column">
       <img id="hero-img" alt="">
     </div>
-    <div class="column" id="movie-info">
-      <img id="movie-poster" alt="">
-      <ul class="movies" id="movie-list">
-        <li id="movie-name"></li>
-        <li id="movie-rated"></li>
-        <li id="movie-runtime"></li>
-        <li id="movie-year"></li>
-        <li id="movie-director"></li>
-        <li id="movie-imdb"></li>
-        <li id="movie-meta"></li>
-        <li id="movie-genre"></li>
-      </ul>
-      
-    </div>
+
   </section>
-
- 
-    
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="/assets/js/welcome.js"></script>
 
