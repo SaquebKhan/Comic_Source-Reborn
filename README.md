@@ -36,5 +36,10 @@ The following topics will be covered in this unit:
 
 * Collaborative development
 
+## Screenshots and site link
+
+![screenshot](public/assets/images/csr2.png)
+![screenshot](public/assets/images/csr1.png)
+
 
 
